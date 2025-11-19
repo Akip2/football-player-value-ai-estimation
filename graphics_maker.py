@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # === Paramètres ===
-var_name = "skill_moves"
-ranges = False
-binsNb = 5
-step = 1
-starting_value = 1
+var_name = "value_eur"
+ranges = True
+binsNb = 20
+step = 500_000
+starting_value = 0
 
 df = pd.read_csv("players_20.csv")
 
