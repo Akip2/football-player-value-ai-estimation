@@ -6,9 +6,9 @@ from normalizer import normalize_dataframe_mixed
 
 explained_var = "value_eur"
 explaination_vars_full = [
-    "overall", "international_reputation", "potential", "gk_handling", "movement_reactions", "age"
+    "overall", "potential", "movement_reactions", "age", "gk_handling"
 ]
-neighbors = 7
+neighbors = 9
 
 df = pd.read_csv("players_20.csv")
 df =  normalize_dataframe_mixed(df)
